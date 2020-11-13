@@ -1,8 +1,9 @@
 import numpy as np
 import tensorflow as tf
 
-from anonymizer.utils import Box
-
+from helpers import get_default_session_config
+#from anonymizer.utils import Box
+from box import Box
 
 class Detector:
     def __init__(self, kind, weights_path):
